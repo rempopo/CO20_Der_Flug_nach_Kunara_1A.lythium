@@ -40,6 +40,11 @@ PlayerConnectedEH = addMissionEventHandler ["PlayerConnected", {
 	publicVariable "PlayerConnectedData";
 }];
 
+private _asset = [AssetLogic, "objects"] call dzn_fnc_selectRandomAsset;
+private _assetObjects = synchronizedObjects _asset;
+TGT = _assetObjects # (_assetObjects findIf { typeof _x == "CUP_GuerillaCacheBox_EP1" });
+publicVariable "TGT";
+
 [] spawn {
 waitUntil {!isNil "dzn_dynai_initialized" && { dzn_dynai_initialized } };
 [HQ_patrol, TGT] call dzn_fnc_dynai_moveZone;
