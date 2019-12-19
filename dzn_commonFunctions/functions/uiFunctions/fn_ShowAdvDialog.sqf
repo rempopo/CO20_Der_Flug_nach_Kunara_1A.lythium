@@ -273,7 +273,7 @@ with uiNamespace do {
 					_ctrlId = _ctrlId + 1;					
 				};
 				case "SLIDER": {
-					_item = _dialog ctrlCreate ["RscXSliderH", _ctrlId];
+					_item = _dialog ctrlCreate ["RscSlider", _ctrlId];
 					_item ctrlSetPosition [_xOffset, _yOffset, _widthMultiplier, _ySize];		
 					_item ctrlSetBackgroundColor _tileStyle;
 					
