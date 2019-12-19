@@ -3,7 +3,7 @@
 // ********************
 
 waitUntil { !isNull findDisplay 52 || getClientState == "BRIEFING SHOWN" || time > 0 };
-[] execVM "dzn_tSFramework\Modules\Briefing\tSF_Briefing.sqf";
+
 call compile preProcessFileLineNumbers "dzn_tSFramework\Modules\Briefing\Settings.sqf";
 
 if (tSF_Briefing_ShowRoster) then {
@@ -46,3 +46,5 @@ if (tSF_Briefing_ShowRoster) then {
 		};	
 	};
 };
+
+call compile preProcessFileLineNumbers "dzn_tSFramework\Modules\Briefing\tSF_Briefing.sqf";
