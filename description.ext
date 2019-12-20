@@ -14,6 +14,36 @@ respawnDelay = 9999999;
 
 class Params
 {   
+	class overview_line0
+	{
+		title = "Обзор:";
+		values[] = {0};
+		texts[] = {""};
+	};
+	class overview_line1
+	{
+		title = "Вертолётно-десантный взвод ищет и уничтожает штаб группы талибана. Доступен CAS";
+		values[] = {0};
+		texts[] = {""};
+	};
+	class overview_line2
+	{
+		title = "Описание ролей:";
+		values[] = {0};
+		texts[] = {""};
+	};
+	class overview_line3
+	{
+		title = "Zugführer - командир взвода. Gruppenführer - командир отделения. Truppführer - командир команды.";
+		values[] = {0};
+		texts[] = {""};
+	};
+	class overview_line4
+	{
+		title = "Schütze - стрелок. MG-Schütze - пулемётчик. Zielfernrohrschütze - стрелок-марксман. Pionier - стрелок со взрывчаткой";
+		values[] = {0};
+		texts[] = {""};
+	};
 	class par_daytime
 	{
 	    title = "Время суток";
