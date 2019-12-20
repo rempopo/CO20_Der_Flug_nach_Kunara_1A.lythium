@@ -5,7 +5,7 @@
  */
 
 tSF_POM_AuthorizedUsers		= [
-	,"1'6 Zugführer@1'6"
+	"1'6 Zugführer@1'6"
 	,"Zugfeldwebel"
 	,"JTAC"
 ];

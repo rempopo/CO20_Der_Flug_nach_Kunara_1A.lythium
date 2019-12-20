@@ -83,7 +83,7 @@ kit_ger_ftl = [
 	["<BACKPACK ITEMS >> ",[]] 
 ];
 kit_ger_gr = [
-	["<EQUIPEMENT >>  ",GER_UNI,"CUP_V_B_GER_PVest_Trop_Gren","CUP_B_GER_Pack_Tropentarn",GER_HELM,GER_ACCS],
+	["<EQUIPEMENT >>  ",GER_UNI,"CUP_V_B_GER_PVest_Trop_Gren","",GER_HELM,GER_ACCS],
 	["<PRIMARY WEAPON >>  ","CUP_arifle_AG36","CUP_30Rnd_556x45_G36",["","CUP_acc_LLM01_L","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_Glock17_tan","CUP_17Rnd_9x19_glock17",["","","",""]],
@@ -94,13 +94,13 @@ kit_ger_gr = [
 ];
 kit_ger_pionier = [
 	["<EQUIPEMENT >>  ",GER_UNI,"CUP_V_B_GER_PVest_Trop_Gren","CUP_B_GER_Pack_Tropentarn",GER_HELM,GER_ACCS],
-	["<PRIMARY WEAPON >>  ","CUP_arifle_AG36","CUP_30Rnd_556x45_G36",["","CUP_acc_LLM01_L","",""]],
+	["<PRIMARY WEAPON >>  ","CUP_arifle_G36A","CUP_30Rnd_556x45_G36",["","CUP_acc_LLM01_L","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_Glock17_tan","CUP_17Rnd_9x19_glock17",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
-	["<VEST ITEMS >> ",[["PRIMARY MAG",9],["1Rnd_HE_Grenade_shell",12],["1Rnd_SmokeRed_Grenade_shell",2],["1Rnd_Smoke_Grenade_shell",2],["HANDGUN MAG",1],["HandGrenade",3],["Chemlight_green",2]]],
-	["<BACKPACK ITEMS >> ",[["ACE_Clacker",1],["DemoCharge_Remote_Mag",3]]]
+	["<VEST ITEMS >> ",[["PRIMARY MAG",9],["HANDGUN MAG",1],["HandGrenade",3],["Chemlight_green",2]]],
+	["<BACKPACK ITEMS >> ",[["ACE_Clacker",1],["DemoCharge_Remote_Mag",5]]]
 ];
 kit_ger_mg = [
 	["<EQUIPEMENT >>  ",GER_UNI,"CUP_V_B_GER_PVest_Trop_MG","CUP_B_GER_Pack_Tropentarn",GER_HELM,GER_ACCS],
@@ -109,18 +109,18 @@ kit_ger_mg = [
 	["<HANDGUN WEAPON >>  ","CUP_hgun_Glock17_tan","CUP_17Rnd_9x19_glock17",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
-	["<VEST ITEMS >> ",[["HANDGUN MAG",2],["HandGrenade",3],["Chemlight_green",2],["PRIMARY MAG",3]]],
-	["<BACKPACK ITEMS >> ",[["PRIMARY MAG",2]]]
+	["<VEST ITEMS >> ",[["HANDGUN MAG",2],["HandGrenade",3],["Chemlight_green",2],["PRIMARY MAG",2]]],
+	["<BACKPACK ITEMS >> ",[["PRIMARY MAG",1]]]
 ];
 kit_ger_r = [
-	["<EQUIPEMENT >>  ",GER_UNI,"CUP_V_B_GER_PVest_Trop_RFL","CUP_B_GER_Pack_Tropentarn",GER_HELM,GER_ACCS],
+	["<EQUIPEMENT >>  ",GER_UNI,"CUP_V_B_GER_PVest_Trop_RFL","",GER_HELM,GER_ACCS],
 	["<PRIMARY WEAPON >>  ","CUP_arifle_G36A","CUP_30Rnd_556x45_G36",["","CUP_acc_LLM01_L","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","CUP_hgun_Glock17_tan","CUP_17Rnd_9x19_glock17",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["HandGrenade",3],["Chemlight_green",2],["HANDGUN MAG",2],["PRIMARY MAG",9]]],
-	["<BACKPACK ITEMS >> ",[["hlc_100Rnd_762x51_M_MG3",3]]]
+	["<BACKPACK ITEMS >> ",[]]
 ];
 kit_ger_mm = [
 	["<EQUIPEMENT >>  ",GER_UNI,"CUP_V_B_GER_PVest_Trop_RFL","CUP_B_GER_Pack_Tropentarn",GER_HELM,GER_ACCS],
@@ -130,7 +130,7 @@ kit_ger_mm = [
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["HandGrenade",3],["Chemlight_green",2],["HANDGUN MAG",2],["PRIMARY MAG",12]]],
-	["<BACKPACK ITEMS >> ",[]]
+	["<BACKPACK ITEMS >> ",[["hlc_100Rnd_762x51_M_MG3",2]]]
 ];
 kit_ger_jtac = [
 	["<EQUIPEMENT >>  ",GER_UNI,"CUP_V_B_GER_PVest_Trop_Gren","tf_rt1523g_big_bwmod_tropen",GER_HELM,GER_ACCS],
@@ -154,9 +154,9 @@ kit_ger_pilot = [
 ];
 cargo_kit_ger = [
 	[["FirstAidKit",5],["CUP_launch_MAAWS",1]],
-	[["CUP_30Rnd_556x45_G36",20],["CUP_HandGrenade_M67",10],["SmokeShell",6],["1Rnd_HE_Grenade_shell",15],["CUP_17Rnd_9x19_glock17",5],["hlc_100Rnd_762x51_M_MG3",10],["DemoCharge_Remote_Mag",3],["CUP_20Rnd_762x51_G3",10],["CUP_MAAWS_HEDP_M",4]],
+	[["CUP_30Rnd_556x45_G36",20],["CUP_HandGrenade_M67",10],["SmokeShell",6],["1Rnd_HE_Grenade_shell",15],["CUP_17Rnd_9x19_glock17",5],["hlc_100Rnd_762x51_M_MG3",20],["DemoCharge_Remote_Mag",3],["CUP_20Rnd_762x51_G3",15],["CUP_MAAWS_HEDP_M",4]],
 	[["ACE_Clacker",3]],
-	[]
+	[["CUP_B_GER_Pack_Tropentarn",9]]
 ];
 /// ZLOY TALIBAN
 #define ASSIGNED_ITEMS_T	"ItemMap","ItemCompass","ItemWatch","ItemRadio"
