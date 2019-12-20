@@ -12,10 +12,10 @@
  */
 tSF_ArtillerySupport_AuthorizedUsers = [
 	"Admin"
-	,"1'6 Platoon Leader@1'6"
-	,"Platoon Sergeant"
-	,"1'2 Squad Leader@1'2"
-	,"1'1 Squad Leader@1'1"
+	,"1'6 Zugführer@1'6"
+	,"Zugfeldwebel"
+	,"1'1 Gruppenführer@1'1"
+	,"1'2 Gruppenführer@1'2"
 	,"JTAC"
 ];
 
