@@ -13,12 +13,13 @@ MissionDate = [
 	}
 	, selectRandom [0,10,15,20,25,30,40,45,50]
 ];
-publicVariable "MissionDate";
 
 /*
  * Date
  */
 setDate MissionDate;
+MissionDate = date;
+publicVariable "MissionDate";
 
 /*
  *	Weather
@@ -46,11 +47,11 @@ TGT = _assetObjects # (_assetObjects findIf { typeof _x == "CUP_GuerillaCacheBox
 publicVariable "TGT";
 
 [] spawn {
-waitUntil {!isNil "dzn_dynai_initialized" && { dzn_dynai_initialized } };
-[HQ_patrol, TGT] call dzn_fnc_dynai_moveZone;
-[HQ_guard, TGT] call dzn_fnc_dynai_moveZone;
-HQ_patrol call dzn_fnc_dynai_activateZone;
-HQ_guard call dzn_fnc_dynai_activateZone;
+	waitUntil {!isNil "dzn_dynai_initialized" && { dzn_dynai_initialized } };
+	[HQ_patrol, TGT] call dzn_fnc_dynai_moveZone;
+	[HQ_guard, TGT] call dzn_fnc_dynai_moveZone;
+	HQ_patrol call dzn_fnc_dynai_activateZone;
+	HQ_guard call dzn_fnc_dynai_activateZone;
 };
 
 
