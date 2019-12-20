@@ -5,11 +5,9 @@
  */
 
 tSF_POM_AuthorizedUsers		= [
-						"1'6 Platoon Leader"						
-						,"1'6 Командир взвода"
-						
-						,"Platoon Sergeant"
-						,"Зам. командира взвода"						
+	,"1'6 Zugführer@1'6"
+	,"Zugfeldwebel"
+	,"JTAC"
 ];
 
 tSF_POM_GenerateMarkersFromGroups	= true;

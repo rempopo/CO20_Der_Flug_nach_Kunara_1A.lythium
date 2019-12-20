@@ -12,7 +12,16 @@ tSF_AirborneSupport_initTimeout		= 5;
  *		"Any"			- any player
  *
  */
-tSF_AirborneSupport_AuthorizedUsers	= ["Admin","Platoon Sergeant","1'6 Platoon Leader@1'6","1'2 Squad Leader@1'2","1'1 Squad Leader@1'1","JTAC"];
+tSF_AirborneSupport_AuthorizedUsers	= [
+	"Admin","Platoon Sergeant"
+	,"1'6 Zugführer@1'6"
+	,"Zugfeldwebel"
+	,"1'1 Gruppenführer@1'1"
+	,"1'2 Gruppenführer@1'2"
+	,"JTAC"
+	,"Pilot@Baron UH-1D Gunship"
+	,"Pilot"
+];
 
 /*
  *	Allow authorized units to teleport from tSF_AirborneSupport_ReturnPoint to their Squad
