@@ -47,6 +47,8 @@ tSF_MissionCondition_DefaultCheckTimer 			= 15;
  *			[ [TRG_1, TRG_2, TRG_3], "east", "primaryWeapon _x != ''", "< 3"] call dzn_fnc_ccUnits
  */
 
+waitUntil { !isNil "TGT" }; // Ждем пока выберем TGT
+
 // Код условия может быть строкой или кодом в { }
 MissionCondition1 = [ "WIN", "(!alive TGT) && {call fnc_CheckPlayersReturned}", "All objectives done" ];
 MissionCondition2 = [ "WIPED", { call fnc_isAllDead }, "All dead", 30 ];
