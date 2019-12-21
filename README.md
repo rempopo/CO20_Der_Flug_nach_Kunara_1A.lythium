@@ -12,5 +12,5 @@ Version: 1A
 # NOT APPROVED
 | Reviewer | Result |
 | ------------ | ------------- |
-| - | - |
+| Vocasyan | Approved |
 | - | - |
